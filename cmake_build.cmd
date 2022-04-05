@@ -9,3 +9,7 @@ cd ..
 
 xcopy compiled\ScreenRecorder.dll python\screen_recorder_sdk\lib\ /s /Y
 xcopy compiled\ScreenRecorder.dll java\screen_recorder\src\main\resources\ /s /Y
+
+
+pip uninstall screen_recorder_sdk --yes
+python python\setup.py install

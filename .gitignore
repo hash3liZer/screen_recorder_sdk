@@ -5,6 +5,9 @@
 
 # Build files
 compiled/*
+dist/*
+*.dll
+*.egg-info
 
 # User-specific files
 *.suo
