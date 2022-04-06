@@ -8,6 +8,7 @@ compiled/*
 dist/*
 *.dll
 *.egg-info
+*.egg
 
 # User-specific files
 *.suo
