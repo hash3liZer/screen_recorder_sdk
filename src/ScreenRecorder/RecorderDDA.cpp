@@ -354,7 +354,7 @@ void RecorderDDA::WorkerThread ()
                 }
                 EnterCriticalSection (&critSect);
                 mfenc = new MFEncoder (this->bitRate, this->frameRate, (char *)this->videoFileName,
-                    MFVideoFormat_ARGB32, width, height);
+                    MFVideoFormat_RGB24, width, height);
                 HRESULT hr =
                     mfenc->InitializeSinkWriter (deviceManager, this->useHardwareTransform);
                 if (FAILED (hr))
