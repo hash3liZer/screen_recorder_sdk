@@ -34,7 +34,7 @@ private:
     LONGLONG firstTime;
     LONGLONG prevTime;
 
-    const GUID videoEncodingFormat = MFVideoFormat_VP80;
+    const GUID videoEncodingFormat = MFVideoFormat_H264;
 };
 
 #endif

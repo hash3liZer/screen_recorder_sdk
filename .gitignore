@@ -9,6 +9,7 @@ dist/*
 *.dll
 *.egg-info
 *.egg
+testscreen.py
 
 # User-specific files
 *.suo
